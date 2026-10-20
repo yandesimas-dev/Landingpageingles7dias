@@ -14,10 +14,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&amp;family=Karla:wght@400;500;700&amp;display=swap">
 <style>
-body{margin:0;background:#F6F8FB}
+body{margin:0;background:#F3F6FA}
 a{color:#08406D}a:hover{color:#062B4A}
-@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-.tick{animation:tick 30s linear infinite}
 .cta{transition:transform .15s ease, box-shadow .15s ease}
 .cta:hover{transform:translateY(-2px)}
 .cta:active{transform:translateY(2px)}
@@ -25,251 +23,237 @@ details summary{cursor:pointer;list-style:none}
 details summary::-webkit-details-marker{display:none}
 details[open] .plus{transform:rotate(45deg)}
 .plus{transition:transform .2s ease}
-@media (prefers-reduced-motion:reduce){.tick{animation:none}.cta,.plus{transition:none}}
+@media (prefers-reduced-motion:reduce){.cta,.plus{transition:none}}
 </style>
 </head>
 <body>
-<div style="font-family: Karla, 'Helvetica Neue', sans-serif; font-size: 17px; line-height: 1.6; color: #0C1720; background: #F6F8FB; min-width: 0; overflow-x: hidden">
+<div style="font-family: Karla, 'Helvetica Neue', sans-serif; font-size: 17px; line-height: 1.6; color: #0C1720; background: #F3F6FA; min-width: 0; overflow-x: hidden">
 
-<!-- TICKER -->
-<div style="background: #FFC531; color: #0C1720; overflow: hidden; padding: 10px 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 14px; letter-spacing: .06em; white-space: nowrap">
-<div class="tick" style="display: flex; width: max-content; gap: 40px">
-<span>DESAFIO INGLÊS EM 7 DIAS</span><span>1H POR DIA</span><span>R$49,90 · PAGAMENTO ÚNICO</span><span>PRESENTE · PASSADO · FUTURO</span>
-<span>DESAFIO INGLÊS EM 7 DIAS</span><span>1H POR DIA</span><span>R$49,90 · PAGAMENTO ÚNICO</span><span>PRESENTE · PASSADO · FUTURO</span>
-<span>DESAFIO INGLÊS EM 7 DIAS</span><span>1H POR DIA</span><span>R$49,90 · PAGAMENTO ÚNICO</span><span>PRESENTE · PASSADO · FUTURO</span>
-<span>DESAFIO INGLÊS EM 7 DIAS</span><span>1H POR DIA</span><span>R$49,90 · PAGAMENTO ÚNICO</span><span>PRESENTE · PASSADO · FUTURO</span>
-</div>
+<!-- BARRA DO TOPO -->
+<div style="background: #062B4A; color: #FFFFFF; padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 6px 22px; justify-content: center; font-size: 14px; font-weight: 700">
+<span style="display: inline-flex; gap: 6px; align-items: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFC531" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7z"></path></svg>Acesso imediato</span>
+<span style="display: inline-flex; gap: 6px; align-items: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFC531" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Compra 100% segura</span>
 </div>
 
 <!-- HERO -->
-<section style="background: #062B4A; color: #FFFFFF">
-<div style="max-width: 1120px; margin: 0 auto; padding: 64px 20px 88px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
-<div style="flex: 1 1 500px; min-width: 0; display: flex; flex-direction: column; gap: 22px; align-items: flex-start">
-<h1 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(42px, 6.6vw, 80px); line-height: .96; letter-spacing: -.02em; text-transform: uppercase">Pare de estudar inglês. <span style="color: #FFC531">Comece a falar.</span></h1>
-<div style="display: flex; flex-direction: column; gap: 12px; font-size: 19px; font-weight: 500">
-<div style="display: flex; gap: 12px; align-items: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3EA8DE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 24px"><path d="M12 2a3 3 0 0 1 3 3v6a3 3 0 0 1-6 0V5a3 3 0 0 1 3-3z"></path><path d="M19 10v1a7 7 0 0 1-14 0v-1M12 18v4"></path></svg><span>7 dias com foco total na fala</span></div>
-<div style="display: flex; gap: 12px; align-items: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3EA8DE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 24px"><rect x="6" y="2" width="12" height="20" rx="2.5"></rect><path d="M11 18h2"></path></svg><span>Tudo pelo celular</span></div>
-<div style="display: flex; gap: 12px; align-items: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3EA8DE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 24px"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"></path><path d="M9 11h6M9 14h4"></path></svg><span>Exercícios de repetição e prática que te levam à conversação</span></div>
-</div>
-<div style="display: flex; flex-direction: column; gap: 10px; align-items: flex-start; padding-top: 6px">
-<a class="cta" href="https://pay.kiwify.com.br/XLh2tc1" style="display: inline-flex; align-items: center; justify-content: center; min-height: 60px; padding: 0 36px; border-radius: 999px; background: #FFC531; color: #0C1720; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 19px; letter-spacing: .02em; text-decoration: none; text-transform: uppercase; box-shadow: 0 6px 0 rgba(0,0,0,.28)">Quero entrar no desafio</a>
-<span style="font-size: 14px; color: #A9C1D3">R$49,90 · Pagamento único · Acesso imediato</span>
-</div>
-</div>
-
-<div style="flex: 1 1 340px; min-width: 0; background: #08406D; border: 1px solid rgba(255,255,255,.14); border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
-<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px"><span style="font-size: 13px; font-weight: 700; letter-spacing: .12em; color: #8FD0F2">CADA DIA DO DESAFIO</span><span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 22px; color: #FFC531">1h</span></div>
-<div style="background: rgba(255,255,255,.06); border-radius: 18px; padding: 18px 20px; display: flex; gap: 16px; align-items: flex-start">
-<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3EA8DE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 28px"><circle cx="12" cy="12" r="10"></circle><path d="M10 8l6 4-6 4z"></path></svg>
-<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-size: 21px; font-weight: 700; line-height: 1.2">Vídeo aula</span><span style="font-size: 15px; color: #D5E3EE">A estrutura do dia, explicada passo a passo.</span></div>
-</div>
-<div style="background: rgba(255,255,255,.06); border-radius: 18px; padding: 18px 20px; display: flex; gap: 16px; align-items: flex-start">
-<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3EA8DE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 28px"><rect x="3" y="4" width="18" height="14" rx="2"></rect><path d="M8 21h8M8 10l2 2 4-4"></path></svg>
-<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-size: 21px; font-weight: 700; line-height: 1.2">Exercícios na plataforma</span><span style="font-size: 15px; color: #D5E3EE">Feitos para a aula que você acabou de ver.</span></div>
-</div>
-<div style="background: rgba(255,255,255,.06); border-radius: 18px; padding: 18px 20px; display: flex; gap: 16px; align-items: flex-start">
-<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3EA8DE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 28px"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"></path><path d="M9 11h6M9 14h4"></path></svg>
-<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-size: 21px; font-weight: 700; line-height: 1.2">Repetição e prática</span><span style="font-size: 15px; color: #D5E3EE">Que te levam à conversação.</span></div>
-</div>
-</div>
-</div>
-</section>
-
-<!-- PARA QUEM É -->
 <section style="background: #FFFFFF">
-<div style="max-width: 1120px; margin: 0 auto; padding: 88px 20px; display: flex; flex-direction: column; gap: 36px">
-<div style="display: flex; flex-direction: column; gap: 12px; align-items: center; text-align: center">
-<span style="font-size: 13px; font-weight: 700; letter-spacing: .14em; color: #08406D">PARA QUEM É</span>
-<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(30px, 4.4vw, 46px); line-height: 1.08; letter-spacing: -.01em; color: #062B4A; max-width: 820px">Para todo mundo que quer falar inglês</h2>
+<div style="max-width: 680px; margin: 0 auto; padding: 48px 20px 56px; display: flex; flex-direction: column; gap: 24px; align-items: center; text-align: center">
+<span style="display: inline-block; background: #E6F0F8; color: #08406D; border-radius: 999px; padding: 6px 16px; font-size: 13px; font-weight: 700; letter-spacing: .12em">DESAFIO INGLÊS EM 7 DIAS</span>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(36px, 6vw, 56px); line-height: 1.02; letter-spacing: -.02em; color: #062B4A">Pare de estudar inglês. <span style="background: linear-gradient(transparent 58%, #FFC531 58%); padding: 0 4px">Comece a falar.</span></h1>
+<p style="margin: 0; font-size: 19px; color: #3B4C5C; max-width: 560px">Em <strong style="color: #062B4A">7 dias, com 1 hora por dia</strong>, você aprende a afirmar, negar e perguntar no presente, no passado e no futuro. Vídeo aula e exercícios de repetição e prática, <strong style="color: #062B4A">tudo pelo celular</strong>.</p>
+
+<div style="position: relative; width: 100%; max-width: 400px; aspect-ratio: 1 / 1.02; margin: 8px 0 4px">
+<div style="position: absolute; right: 2%; top: 4%; width: 50%; aspect-ratio: 9 / 16; box-sizing: border-box; border: 6px solid #0C1720; border-radius: 26px; overflow: hidden; background: #FFFFFF; transform: rotate(6deg); box-shadow: 0 20px 50px rgba(6,43,74,.22)"><img src="img/trilha.jpg" alt="Trilha de exercícios do app" style="width: 100%; height: 100%; object-fit: cover; object-position: top; display: block"></div>
+<div style="position: absolute; left: 4%; top: 0; width: 52%; aspect-ratio: 9 / 16; box-sizing: border-box; border: 6px solid #0C1720; border-radius: 26px; overflow: hidden; background: #FFFFFF; transform: rotate(-5deg); box-shadow: 0 24px 60px rgba(6,43,74,.3)"><img src="img/videoaula.jpg" alt="Vídeo aula do Dia 1 no app" style="width: 100%; height: 100%; object-fit: cover; object-position: top; display: block"></div>
 </div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px">
-<div style="background: #F6F8FB; border: 1.5px solid #D3DDE6; border-radius: 28px; padding: 36px 32px; display: flex; flex-direction: column; gap: 14px">
-<span style="width: 56px; height: 56px; border-radius: 16px; background: #08406D; display: flex; align-items: center; justify-content: center"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
-<h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 28px; line-height: 1.12; color: #062B4A">Nunca estudou inglês</h3>
-<p style="margin: 0; font-size: 18px; color: #3B4C5C">E quer começar do jeito certo: pela base que sustenta todas as conversas, em vez de decorar frases soltas.</p>
+
+<div style="display: flex; flex-direction: column; gap: 10px; text-align: left; width: 100%; max-width: 480px">
+<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>7 vídeo aulas com o Teacher Yan, uma por dia</span></div>
+<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Exercícios de repetição e prática no app</span></div>
+<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Material de cada aula em PDF, com gabarito</span></div>
+<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Presente, passado e futuro, com o verb to be</span></div>
+<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span><strong>Prêmio:</strong> aula individual com o Teacher Yan para quem concluir</span></div>
 </div>
-<div style="background: #F6F8FB; border: 1.5px solid #D3DDE6; border-radius: 28px; padding: 36px 32px; display: flex; flex-direction: column; gap: 14px">
-<span style="width: 56px; height: 56px; border-radius: 16px; background: #08406D; display: flex; align-items: center; justify-content: center"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 7.5-2"></path></svg></span>
-<h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 28px; line-height: 1.12; color: #062B4A">Já estudou e não destravou</h3>
-<p style="margin: 0; font-size: 18px; color: #3B4C5C">Entende um pouco, sabe várias palavras, mas na hora de montar a frase, trava. Aqui as peças se encaixam.</p>
-</div>
+
+<div style="display: flex; flex-direction: column; gap: 10px; align-items: stretch; width: 100%; max-width: 480px">
+<a class="cta" href="https://pay.kiwify.com.br/AfBRZsL" style="display: flex; align-items: center; justify-content: center; min-height: 62px; padding: 0 24px; border-radius: 16px; background: #FFC531; color: #0C1720; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 19px; letter-spacing: .02em; text-decoration: none; text-transform: uppercase; box-shadow: 0 6px 0 #D9A21A; text-align: center">Quero começar o desafio</a>
+<span style="font-size: 14px; color: #5B6D7D">Acesso imediato por e-mail · Pagamento único de R$49,90</span>
 </div>
 </div>
 </section>
 
-<!-- A PROPOSTA -->
-<section style="background: #FFC531; color: #0C1720">
-<div style="max-width: 960px; margin: 0 auto; padding: 72px 20px; display: flex; flex-direction: column; gap: 16px; align-items: center; text-align: center">
-<span style="font-size: 13px; font-weight: 700; letter-spacing: .14em">A PROPOSTA</span>
-<p style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(28px, 4.2vw, 46px); line-height: 1.1; letter-spacing: -.01em; color: #062B4A">1 hora por dia, durante 7 dias seguidos.</p>
-<p style="margin: 0; font-size: 20px; line-height: 1.5; max-width: 640px">Você dedica uma semana. E o inglês fica muito mais claro para você.</p>
+<!-- O QUE ESTÁ INCLUÍDO -->
+<section style="background: #FFFFFF">
+<div style="max-width: 680px; margin: 0 auto; padding: 64px 20px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center">
+<span style="font-size: 13px; font-weight: 700; letter-spacing: .14em; color: #08406D">O QUE ESTÁ INCLUÍDO</span>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(28px, 4.4vw, 40px); line-height: 1.08; letter-spacing: -.01em; color: #062B4A">Por que o desafio funciona</h2>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; gap: 16px; align-items: flex-start; background: #F3F6FA; border-radius: 20px; padding: 20px"><span style="flex: 0 0 48px; height: 48px; border-radius: 14px; background: #062B4A; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFC531" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M10 8l6 4-6 4z"></path></svg></span><div style="display: flex; flex-direction: column; gap: 2px"><h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 20px; line-height: 1.2; color: #062B4A">7 vídeo aulas com o Teacher Yan</h3><p style="margin: 0; color: #3B4C5C">Uma por dia, explicando a estrutura do dia passo a passo.</p></div></div>
+<div style="display: flex; gap: 16px; align-items: flex-start; background: #F3F6FA; border-radius: 20px; padding: 20px"><span style="flex: 0 0 48px; height: 48px; border-radius: 14px; background: #062B4A; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFC531" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a3 3 0 0 1 3 3v6a3 3 0 0 1-6 0V5a3 3 0 0 1 3-3z"></path><path d="M19 10v1a7 7 0 0 1-14 0v-1M12 18v4"></path></svg></span><div style="display: flex; flex-direction: column; gap: 2px"><h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 20px; line-height: 1.2; color: #062B4A">Repetição e prática</h3><p style="margin: 0; color: #3B4C5C">Exercícios no app feitos para a aula que você acabou de ver. Você ouve, repete e fala.</p></div></div>
+<div style="display: flex; gap: 16px; align-items: flex-start; background: #F3F6FA; border-radius: 20px; padding: 20px"><span style="flex: 0 0 48px; height: 48px; border-radius: 14px; background: #062B4A; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFC531" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M12 18v-6M9 15l3 3 3-3"></path></svg></span><div style="display: flex; flex-direction: column; gap: 2px"><h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 20px; line-height: 1.2; color: #062B4A">Material da aula em PDF</h3><p style="margin: 0; color: #3B4C5C">As palavras da aula, as telas do vídeo, exercícios e gabarito. Dá para imprimir.</p></div></div>
+<div style="display: flex; gap: 16px; align-items: flex-start; background: #F3F6FA; border-radius: 20px; padding: 20px"><span style="flex: 0 0 48px; height: 48px; border-radius: 14px; background: #062B4A; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFC531" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"></rect><path d="M11 18h2"></path></svg></span><div style="display: flex; flex-direction: column; gap: 2px"><h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 20px; line-height: 1.2; color: #062B4A">Tudo pelo celular</h3><p style="margin: 0; color: #3B4C5C">Assista e pratique de onde estiver. 1 hora por dia, 7 dias seguidos.</p></div></div>
+<div style="display: flex; gap: 16px; align-items: flex-start; background: #F3F6FA; border-radius: 20px; padding: 20px"><span style="flex: 0 0 48px; height: 48px; border-radius: 14px; background: #062B4A; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFC531" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"></path><path d="M7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3"></path></svg></span><div style="display: flex; flex-direction: column; gap: 2px"><h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 20px; line-height: 1.2; color: #062B4A">Trilha, ofensiva e liga</h3><p style="margin: 0; color: #3B4C5C">Você acompanha o seu progresso e mantém o ritmo até o 7º dia.</p></div></div>
+</div>
 </div>
 </section>
 
-<!-- PARTICIPANTES -->
+<!-- CTA INTERMEDIÁRIO -->
+<section style="background: #FFFFFF">
+<div style="max-width: 680px; margin: 0 auto; padding: 0 20px 64px">
+<div style="background: #062B4A; color: #FFFFFF; border-radius: 24px; padding: 32px 24px; display: flex; flex-direction: column; gap: 14px; align-items: center; text-align: center">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(24px, 3.6vw, 32px); line-height: 1.12">Comece hoje mesmo</h2>
+<p style="margin: 0; color: #D5E3EE">Faça a compra agora e assista à aula do Dia 1 ainda hoje.</p>
+<a class="cta" href="https://pay.kiwify.com.br/AfBRZsL" style="display: flex; align-items: center; justify-content: center; min-height: 58px; width: 100%; max-width: 420px; box-sizing: border-box; padding: 0 24px; border-radius: 16px; background: #FFC531; color: #0C1720; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 18px; letter-spacing: .02em; text-decoration: none; text-transform: uppercase; box-shadow: 0 6px 0 #D9A21A; text-align: center">Quero meu acesso</a>
+</div>
+</div>
+</section>
+
+<!-- CASES DE SUCESSO -->
 <section style="background: #062B4A; color: #FFFFFF">
-<div style="max-width: 1120px; margin: 0 auto; padding: 88px 20px; display: flex; flex-direction: column; gap: 36px">
-<div style="display: flex; flex-direction: column; gap: 12px; align-items: center; text-align: center">
+<div style="max-width: 760px; margin: 0 auto; padding: 64px 20px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center">
 <span style="font-size: 13px; font-weight: 700; letter-spacing: .14em; color: #8FD0F2">CASES DE SUCESSO</span>
-<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(30px, 4.4vw, 46px); line-height: 1.08; letter-spacing: -.01em; max-width: 820px">Eles fizeram os 7 dias. <span style="color: #FFC531">Agora é a sua vez.</span></h2></div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px">
-<div style="background: #08406D; border-radius: 24px; padding: 16px 16px 22px; display: flex; flex-direction: column; gap: 12px"><img src="img/thauan.jpg" alt="Thauan Teixeira em chamada com Teacher Yan" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; border-radius: 18px; display: block"><div style="display: flex; flex-direction: column; gap: 4px; padding: 0 4px"><span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 21px; line-height: 1.2">Thauan Teixeira</span><span style="font-size: 15px; color: #D5E3EE; line-height: 1.45">5 anos de SBT · Modelo internacional · Mora em Nova York</span><span style="font-size: 15px; color: #A9C1D3"><a href="https://instagram.com/thauanteixeira_" target="_blank" rel="noopener" style="color: #8FD0F2; font-weight: 700; text-decoration: none">@thauanteixeira_</a> · +800 mil seguidores</span></div></div>
-<div style="background: #08406D; border-radius: 24px; padding: 16px 16px 22px; display: flex; flex-direction: column; gap: 12px"><img src="img/michael.jpg" alt="Michael Spezzamonte em chamada com Teacher Yan" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; border-radius: 18px; display: block"><div style="display: flex; flex-direction: column; gap: 4px; padding: 0 4px"><span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 21px; line-height: 1.2">Michael Spezzamonte</span><span style="font-size: 15px; color: #D5E3EE; line-height: 1.45">Franqueadora n. 1 do Brasil · +500 unidades no BR e nos EUA · Mora em Orlando</span><span style="font-size: 15px; color: #A9C1D3"><a href="https://instagram.com/michaelspezzamonte" target="_blank" rel="noopener" style="color: #8FD0F2; font-weight: 700; text-decoration: none">@michaelspezzamonte</a> · +150 mil seguidores</span></div></div>
-<div style="background: #08406D; border-radius: 24px; padding: 16px 16px 22px; display: flex; flex-direction: column; gap: 12px"><img src="img/israel.jpg" alt="Israel Sant'Ana em chamada com Teacher Yan" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; border-radius: 18px; display: block"><div style="display: flex; flex-direction: column; gap: 4px; padding: 0 4px"><span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 21px; line-height: 1.2">Israel Sant'Ana</span><span style="font-size: 15px; color: #D5E3EE; line-height: 1.45">Referência em instalação de papel de parede · Influência nos EUA e na China</span><span style="font-size: 15px; color: #A9C1D3"><a href="https://instagram.com/israsantana_" target="_blank" rel="noopener" style="color: #8FD0F2; font-weight: 700; text-decoration: none">@israsantana_</a></span></div></div>
-<div style="background: #08406D; border-radius: 24px; padding: 16px 16px 22px; display: flex; flex-direction: column; gap: 12px"><img src="img/juliane.jpg" alt="Juliane em chamada com Teacher Yan" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; border-radius: 18px; display: block"><div style="display: flex; flex-direction: column; gap: 4px; padding: 0 4px"><span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 21px; line-height: 1.2">Juliane</span><span style="font-size: 15px; color: #D5E3EE; line-height: 1.45">Ex-SBT · Modelo internacional · Mora em Dubai</span><span style="font-size: 15px; color: #A9C1D3"><a href="https://instagram.com/julianeoliveira_d" target="_blank" rel="noopener" style="color: #8FD0F2; font-weight: 700; text-decoration: none">@julianeoliveira_d</a></span></div></div>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(28px, 4.4vw, 40px); line-height: 1.08; letter-spacing: -.01em">Eles fizeram os 7 dias. <span style="color: #FFC531">Agora é a sua vez.</span></h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px">
+<div style="background: #08406D; border-radius: 20px; padding: 12px 12px 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0"><img src="img/thauan.jpg" alt="Thauan Teixeira em chamada com Teacher Yan" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 14px; display: block"><div style="display: flex; flex-direction: column; gap: 3px; padding: 0 2px"><span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 18px; line-height: 1.2">Thauan Teixeira</span><span style="font-size: 14px; color: #D5E3EE; line-height: 1.4">5 anos de SBT · Modelo internacional · Mora em Nova York</span><span style="font-size: 14px; color: #A9C1D3"><a href="https://instagram.com/thauanteixeira_" target="_blank" rel="noopener" style="color: #8FD0F2; font-weight: 700; text-decoration: none">@thauanteixeira_</a> · +800 mil</span></div></div>
+<div style="background: #08406D; border-radius: 20px; padding: 12px 12px 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0"><img src="img/michael.jpg" alt="Michael Spezzamonte em chamada com Teacher Yan" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 14px; display: block"><div style="display: flex; flex-direction: column; gap: 3px; padding: 0 2px"><span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 18px; line-height: 1.2">Michael Spezzamonte</span><span style="font-size: 14px; color: #D5E3EE; line-height: 1.4">Franqueadora n. 1 do Brasil · +500 unidades no BR e nos EUA · Mora em Orlando</span><span style="font-size: 14px; color: #A9C1D3"><a href="https://instagram.com/michaelspezzamonte" target="_blank" rel="noopener" style="color: #8FD0F2; font-weight: 700; text-decoration: none">@michaelspezzamonte</a> · +150 mil</span></div></div>
+<div style="background: #08406D; border-radius: 20px; padding: 12px 12px 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0"><img src="img/israel.jpg" alt="Israel Sant'Ana em chamada com Teacher Yan" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 14px; display: block"><div style="display: flex; flex-direction: column; gap: 3px; padding: 0 2px"><span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 18px; line-height: 1.2">Israel Sant'Ana</span><span style="font-size: 14px; color: #D5E3EE; line-height: 1.4">Referência em instalação de papel de parede · Influência nos EUA e na China</span><span style="font-size: 14px; color: #A9C1D3"><a href="https://instagram.com/israsantana_" target="_blank" rel="noopener" style="color: #8FD0F2; font-weight: 700; text-decoration: none">@israsantana_</a></span></div></div>
+<div style="background: #08406D; border-radius: 20px; padding: 12px 12px 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0"><img src="img/juliane.jpg" alt="Juliane em chamada com Teacher Yan" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 14px; display: block"><div style="display: flex; flex-direction: column; gap: 3px; padding: 0 2px"><span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 18px; line-height: 1.2">Juliane</span><span style="font-size: 14px; color: #D5E3EE; line-height: 1.4">Ex-SBT · Modelo internacional · Mora em Dubai</span><span style="font-size: 14px; color: #A9C1D3"><a href="https://instagram.com/julianeoliveira_d" target="_blank" rel="noopener" style="color: #8FD0F2; font-weight: 700; text-decoration: none">@julianeoliveira_d</a></span></div></div>
 </div>
 </div>
 </section>
 
-<!-- BONUS CALL -->
+<!-- PERFEITO PARA VOCÊ -->
+<section style="background: #F3F6FA">
+<div style="max-width: 680px; margin: 0 auto; padding: 64px 20px; display: flex; flex-direction: column; gap: 24px">
+<h2 style="margin: 0; text-align: center; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(28px, 4.4vw, 40px); line-height: 1.08; letter-spacing: -.01em; color: #062B4A">Perfeito para você se quer...</h2>
+<div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 20px; padding: 8px 20px">
+<div style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #EDF1F5"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Falar de você e da sua rotina em inglês</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #EDF1F5"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Contar o que você fez: o fim de semana, a viagem, o seu dia</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #EDF1F5"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Falar dos seus planos para amanhã e para o ano que vem</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #EDF1F5"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Perguntar e responder sem travar</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #EDF1F5"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Começar do jeito certo, mesmo que nunca tenha estudado</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Destravar o inglês que ficou parado por anos</span></div>
+</div>
+</div>
+</section>
+
+<!-- TUDO O QUE VOCÊ RECEBE -->
 <section style="background: #FFFFFF">
-<div style="max-width: 1120px; margin: 0 auto; padding: 88px 20px; display: flex; flex-direction: column; gap: 36px">
-<div style="background: #062B4A; color: #FFFFFF; border-radius: 32px; padding: 48px 40px; display: flex; flex-wrap: wrap; gap: 32px; align-items: center">
-<div style="flex: 0 0 120px; height: 120px; border-radius: 32px; background: #FFC531; display: flex; align-items: center; justify-content: center"><svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#062B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2"></rect><path d="M16 10l6-3v10l-6-3z"></path></svg></div>
-<div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
-<span style="font-size: 13px; font-weight: 700; letter-spacing: .14em; color: #FFC531">O PRÊMIO DE QUEM CONCLUIR</span>
-<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(28px, 4vw, 42px); line-height: 1.1; letter-spacing: -.01em">Terminou os 7 dias? Você ganha uma aula individual com o Teacher Yan.</h2>
-<p style="margin: 0; font-size: 18px; color: #D5E3EE">Só para quem completar o desafio. Uma aula ao vivo, direto comigo, para:</p>
-<div style="display: flex; flex-direction: column; gap: 10px; font-size: 18px; font-weight: 500">
-<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFC531" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Colocar em prática tudo o que aprendeu</span></div>
-<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFC531" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Receber dicas personalizadas para o seu inglês</span></div>
-<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFC531" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Sair com um planejamento de estudos anual, de acordo com o seu objetivo</span></div>
+<div style="max-width: 680px; margin: 0 auto; padding: 64px 20px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center">
+<span style="font-size: 13px; font-weight: 700; letter-spacing: .14em; color: #08406D">ACESSO IMEDIATO</span>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(28px, 4.4vw, 40px); line-height: 1.08; letter-spacing: -.01em; color: #062B4A">Tudo o que você recebe</h2>
+<p style="margin: 0; color: #3B4C5C">Tudo organizado por dia. Abriu o app, já sabe o que fazer.</p>
 </div>
-</div>
-</div>
-<div style="display: flex; flex-direction: column; gap: 10px; align-items: center">
-<a class="cta" href="https://pay.kiwify.com.br/XLh2tc1" style="display: inline-flex; align-items: center; justify-content: center; min-height: 60px; padding: 0 36px; border-radius: 999px; background: #FFC531; color: #0C1720; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 19px; letter-spacing: .02em; text-decoration: none; text-transform: uppercase; box-shadow: 0 6px 0 #062B4A">Quero entrar no desafio</a>
-<span style="font-size: 14px; color: #5B6D7D">R$49,90 · Pagamento único · Acesso imediato</span>
+<div style="background: #F3F6FA; border-radius: 20px; padding: 8px 20px">
+<div style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #E2E8F0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>7 vídeo aulas, uma por dia</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #E2E8F0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Exercícios de repetição e prática para cada aula</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #E2E8F0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Material de cada aula em PDF, com gabarito</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #E2E8F0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Presente, passado, futuro e verb to be: afirmar, negar e perguntar</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Tudo pelo celular, 1h por dia</span></div>
 </div>
 </div>
 </section>
 
-<!-- O QUE VOCÊ VAI CONSEGUIR FAZER -->
-<section style="background: #F6F8FB">
-<div style="max-width: 1120px; margin: 0 auto; padding: 88px 20px; display: flex; flex-direction: column; gap: 36px">
-<div style="display: flex; flex-direction: column; gap: 12px; align-items: center; text-align: center">
-<span style="font-size: 13px; font-weight: 700; letter-spacing: .14em; color: #08406D">O QUE VOCÊ VAI CONSEGUIR FAZER</span>
-<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(30px, 4.4vw, 46px); line-height: 1.08; letter-spacing: -.01em; color: #062B4A; max-width: 820px">Depois dos 7 dias, você consegue:</h2>
+<!-- O PRÊMIO -->
+<section style="background: #F3F6FA">
+<div style="max-width: 680px; margin: 0 auto; padding: 64px 20px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center">
+<span style="display: inline-block; background: #FFC531; color: #0C1720; border-radius: 999px; padding: 6px 16px; font-size: 13px; font-weight: 700; letter-spacing: .12em">SÓ PARA QUEM CONCLUIR</span>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(28px, 4.4vw, 40px); line-height: 1.08; letter-spacing: -.01em; color: #062B4A">E tem mais: o prêmio de quem termina os 7 dias</h2>
 </div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px">
-<div style="border: 1.5px solid #D3DDE6; border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 10px"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg><h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 22px; line-height: 1.2; color: #062B4A">Falar de você e da sua rotina</h3><p style="margin: 0; color: #3B4C5C">Quem você é, o que faz, do que gosta.</p></div>
-<div style="border: 1.5px solid #D3DDE6; border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 10px"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg><h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 22px; line-height: 1.2; color: #062B4A">Contar o que você fez</h3><p style="margin: 0; color: #3B4C5C">O fim de semana, a viagem, como foi o seu dia.</p></div>
-<div style="border: 1.5px solid #D3DDE6; border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 10px"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg><h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 22px; line-height: 1.2; color: #062B4A">Falar dos seus planos</h3><p style="margin: 0; color: #3B4C5C">O que vai fazer amanhã, nas férias, no ano que vem.</p></div>
-<div style="border: 1.5px solid #D3DDE6; border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 10px"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg><h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 22px; line-height: 1.2; color: #062B4A">Perguntar e responder</h3><p style="margin: 0; color: #3B4C5C">Puxar assunto e manter a conversa andando, não só responder.</p></div>
-</div>
-<p style="margin: 0; text-align: center; color: #3B4C5C; font-size: 18px">Afirmando, negando e perguntando — no presente, no passado e no futuro.</p>
-</div>
-</section>
-
-<!-- POR DENTRO -->
-<section style="background: #FFFFFF">
-<div style="max-width: 1120px; margin: 0 auto; padding: 88px 20px; display: flex; flex-direction: column; gap: 36px">
-<div style="display: flex; flex-direction: column; gap: 12px; align-items: center; text-align: center">
-<span style="font-size: 13px; font-weight: 700; letter-spacing: .14em; color: #08406D">POR DENTRO</span>
-<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(30px, 4.4vw, 46px); line-height: 1.08; letter-spacing: -.01em; color: #062B4A">Veja a plataforma</h2>
-<p style="margin: 0; color: #3B4C5C; max-width: 600px">Vídeo aulas com o Teacher Yan, em trilha, com o seu progresso. Assista e já parta para a prática.</p>
-</div>
-<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(16px, 4vw, 40px); max-width: 640px; width: 100%; margin: 0 auto">
-<div style="display: flex; flex-direction: column; gap: 12px; min-width: 0">
-<div style="aspect-ratio: 9 / 16; box-sizing: border-box; border: 7px solid #0C1720; border-radius: 30px; overflow: hidden; background: #FFFFFF; box-shadow: 0 24px 60px rgba(6,43,74,.25)"><img src="img/videoaula.jpg" alt="Vídeo aula do Dia 1 no app do Desafio 7 Dias, com o botão para baixar o material da aula" style="width: 100%; height: 100%; object-fit: cover; object-position: top; display: block"></div>
-<span style="text-align: center; font-weight: 700; color: #062B4A">Vídeo aulas</span>
-</div>
-<div style="display: flex; flex-direction: column; gap: 12px; min-width: 0">
-<div style="aspect-ratio: 9 / 16; box-sizing: border-box; border: 7px solid #0C1720; border-radius: 30px; overflow: hidden; background: #FFFFFF; box-shadow: 0 24px 60px rgba(6,43,74,.25)"><img src="img/trilha.jpg" alt="App de exercícios do Desafio 7 Dias: trilha com os dias e as sessões" style="width: 100%; height: 100%; object-fit: cover; object-position: top; display: block"></div>
-<span style="text-align: center; font-weight: 700; color: #062B4A">Exercícios</span>
-</div>
-</div>
-</div>
-</section>
-
-<!-- QUEM CRIOU -->
-<section style="background: #062B4A; color: #FFFFFF">
-<div style="max-width: 1120px; margin: 0 auto; padding: 88px 20px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
-<img src="img/teacher-yan.jpg" alt="Teacher Yan Simas" style="flex: 1 1 300px; min-width: 0; max-width: 380px; aspect-ratio: 4 / 5; object-fit: cover; object-position: center top; border-radius: 28px; display: block; box-shadow: 0 24px 60px rgba(0,0,0,.35)">
-<div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
-<span style="font-size: 13px; font-weight: 700; letter-spacing: .14em; color: #8FD0F2">QUEM CRIOU</span>
-<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(30px, 4.4vw, 46px); line-height: 1.08; letter-spacing: -.01em">Teacher Yan Simas</h2>
-<div style="display: flex; flex-wrap: wrap; gap: 28px">
-<div style="display: flex; flex-direction: column"><span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 40px; line-height: 1.1; color: #FFC531">+1.500</span><span style="font-size: 13px; font-weight: 700; letter-spacing: .12em; color: #A9C1D3">ALUNOS</span></div>
-</div>
-<p style="margin: 0; color: #D5E3EE">Fundador da LetzTalk Academy. Percebi que muita gente passava anos estudando e não conseguia sentir segurança no próprio inglês. Por isso me dediquei a criar algo que realmente traga retorno, começando pelo <strong style="color: #FFFFFF">Desafio Inglês em 7 Dias</strong>: em uma semana, ele destrava o que ninguém conseguiu destravar em você até hoje.</p>
-<p style="margin: 0; color: #D5E3EE; border-left: 3px solid #FFC531; padding-left: 16px">Mas aviso: o desafio só funciona para quem está disposto a dedicar <strong style="color: #FFFFFF">1 hora do dia ao inglês, durante 7 dias</strong>.</p>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div style="background: #FFFFFF; border: 2px solid #FFC531; border-radius: 20px; padding: 22px; display: flex; gap: 16px; align-items: flex-start"><span style="flex: 0 0 52px; height: 52px; border-radius: 16px; background: #FFC531; display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#062B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2"></rect><path d="M16 10l6-3v10l-6-3z"></path></svg></span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 12px; font-weight: 700; letter-spacing: .12em; color: #12695A">PRÊMIO 1</span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 21px; line-height: 1.2; color: #062B4A">Aula individual ao vivo com o Teacher Yan</h3><p style="margin: 0; color: #3B4C5C">Para colocar em prática tudo o que você aprendeu e receber dicas personalizadas para o seu inglês.</p></div></div>
+<div style="background: #FFFFFF; border: 2px solid #FFC531; border-radius: 20px; padding: 22px; display: flex; gap: 16px; align-items: flex-start"><span style="flex: 0 0 52px; height: 52px; border-radius: 16px; background: #FFC531; display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#062B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18M8 14h4M8 18h8"></path></svg></span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 12px; font-weight: 700; letter-spacing: .12em; color: #12695A">PRÊMIO 2</span><h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 21px; line-height: 1.2; color: #062B4A">Planejamento de estudos anual</h3><p style="margin: 0; color: #3B4C5C">Você sai da aula com um plano para o ano inteiro, de acordo com o seu objetivo.</p></div></div>
 </div>
 </div>
 </section>
 
 <!-- OFERTA -->
-<section id="oferta" style="background: #08406D; color: #FFFFFF">
-<div style="max-width: 1120px; margin: 0 auto; padding: 88px 20px; display: flex; flex-direction: column; gap: 32px; align-items: center">
-<div style="display: flex; flex-direction: column; gap: 12px; align-items: center; text-align: center">
-<span style="font-size: 13px; font-weight: 700; letter-spacing: .14em; color: #FFC531">MENOS QUE UMA PIZZA</span>
-<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(30px, 4.4vw, 46px); line-height: 1.08; letter-spacing: -.01em; max-width: 760px">Presente, passado e futuro em 7 dias</h2>
+<section id="oferta" style="background: #062B4A; color: #FFFFFF">
+<div style="max-width: 680px; margin: 0 auto; padding: 64px 20px; display: flex; flex-direction: column; gap: 24px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 8px; align-items: center; text-align: center">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(28px, 4.4vw, 40px); line-height: 1.08; letter-spacing: -.01em">Comece o desafio hoje</h2>
+<p style="margin: 0; color: #D5E3EE">Menos que uma pizza, por uma semana que muda o seu inglês.</p>
 </div>
-
-<div style="background: #FFFFFF; color: #0C1720; border-radius: 32px; padding: 40px 32px; width: 100%; max-width: 520px; box-sizing: border-box; display: flex; flex-direction: column; gap: 22px; box-shadow: 0 24px 60px rgba(0,0,0,.25)">
-<span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 22px; color: #062B4A; text-align: center; letter-spacing: .02em">DESAFIO INGLÊS EM 7 DIAS</span>
-<div style="display: flex; flex-direction: column; gap: 12px">
-<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>7 vídeo aulas, uma por dia</span></div>
-<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Exercícios na plataforma para cada aula</span></div>
-<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Exercícios de repetição e prática que te levam à conversação</span></div>
-<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Tudo pelo celular</span></div>
-<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Presente, passado, futuro e verb to be — afirmar, negar e perguntar</span></div>
-<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>1h por dia, 7 dias seguidos</span></div>
-<div style="display: flex; gap: 12px; align-items: flex-start; background: #FFF6D9; border-radius: 14px; padding: 12px 14px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#062B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 22px; margin-top: 3px"><rect x="2" y="6" width="14" height="12" rx="2"></rect><path d="M16 10l6-3v10l-6-3z"></path></svg><span><strong>Prêmio:</strong> concluiu o desafio, ganha uma aula individual com o Teacher Yan e um planejamento de estudos anual para o seu objetivo</span></div>
+<div style="background: #FFFFFF; color: #0C1720; border-radius: 28px; padding: 28px 24px; width: 100%; max-width: 480px; box-sizing: border-box; display: flex; flex-direction: column; gap: 18px; box-shadow: 0 24px 60px rgba(0,0,0,.25)">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center">
+<span style="display: inline-block; background: #E6F0F8; color: #08406D; border-radius: 999px; padding: 5px 14px; font-size: 12px; font-weight: 700; letter-spacing: .12em">PACOTE COMPLETO</span>
+<span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 22px; color: #062B4A; margin-top: 6px">Desafio Inglês em 7 Dias</span>
 </div>
-<div style="border-top: 1px solid #D3DDE6; padding-top: 22px; display: flex; flex-direction: column; align-items: center; gap: 4px">
-<span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 60px; line-height: 1; color: #062B4A; letter-spacing: -.02em">R$ 49,90</span>
-<span style="font-size: 14px; font-weight: 700; letter-spacing: .12em; color: #3B4C5C">PAGAMENTO ÚNICO</span>
-<span style="font-size: 14px; color: #5B6D7D">R$7,13 por dia · não é assinatura</span>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 20px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>7 vídeo aulas com o Teacher Yan</span></div>
+<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 20px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Exercícios de repetição e prática no app</span></div>
+<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 20px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Material de cada aula em PDF</span></div>
+<div style="display: flex; gap: 12px; align-items: flex-start"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#12695A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 20px; margin-top: 3px"><path d="M5 12l5 5L20 7"></path></svg><span>Tudo pelo celular, 1h por dia</span></div>
+<div style="display: flex; gap: 12px; align-items: flex-start; background: #FFF6D9; border-radius: 12px; padding: 10px 12px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#062B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 20px; margin-top: 3px"><rect x="2" y="6" width="14" height="12" rx="2"></rect><path d="M16 10l6-3v10l-6-3z"></path></svg><span><strong>Prêmio:</strong> aula individual com o Teacher Yan e planejamento anual para quem concluir</span></div>
 </div>
-<a class="cta" href="https://pay.kiwify.com.br/XLh2tc1" style="display: flex; align-items: center; justify-content: center; min-height: 60px; padding: 0 24px; border-radius: 999px; background: #FFC531; color: #0C1720; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 19px; letter-spacing: .02em; text-decoration: none; text-transform: uppercase; box-shadow: 0 6px 0 #062B4A; text-align: center">Quero entrar no desafio</a>
+<div style="border-top: 1px solid #E2E8F0; padding-top: 18px; display: flex; flex-direction: column; align-items: center; gap: 2px">
+<span style="font-size: 14px; color: #5B6D7D">Por apenas</span>
+<span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 58px; line-height: 1; color: #062B4A; letter-spacing: -.02em">R$ 49,90</span>
+<span style="font-size: 14px; color: #5B6D7D; margin-top: 4px">Pagamento único · não é assinatura</span>
+</div>
+<a class="cta" href="https://pay.kiwify.com.br/AfBRZsL" style="display: flex; align-items: center; justify-content: center; min-height: 62px; padding: 0 20px; border-radius: 16px; background: #FFC531; color: #0C1720; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 18px; letter-spacing: .02em; text-decoration: none; text-transform: uppercase; box-shadow: 0 6px 0 #D9A21A; text-align: center">Quero o pacote completo</a>
 <div style="display: flex; flex-wrap: wrap; gap: 8px 18px; justify-content: center; font-size: 14px; color: #3B4C5C">
-<span style="display: inline-flex; gap: 6px; align-items: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3B4C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Compra segura</span>
-<span style="display: inline-flex; gap: 6px; align-items: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3B4C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7z"></path></svg>Acesso imediato</span>
-<span style="display: inline-flex; gap: 6px; align-items: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3B4C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"></path></svg>Garantia de 7 dias</span>
+<span style="display: inline-flex; gap: 6px; align-items: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3B4C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16v12H4z"></path><path d="M4 7l8 6 8-6"></path></svg>Acesso imediato por e-mail</span>
+<span style="display: inline-flex; gap: 6px; align-items: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3B4C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Pagamento seguro</span>
 </div>
 </div>
 </div>
 </section>
 
-<!-- GARANTIA + FAQ -->
-<section style="background: #F6F8FB">
-<div style="max-width: 820px; margin: 0 auto; padding: 88px 20px; display: flex; flex-direction: column; gap: 48px">
-<div style="background: #FFFFFF; border: 1px solid #D3DDE6; border-radius: 24px; padding: 28px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center">
-<div style="flex: 0 0 104px; height: 104px; border-radius: 50%; background: #062B4A; color: #FFFFFF; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px">
-<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"></path><path d="M9 12l2 2 4-4"></path></svg>
-<span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 17px; line-height: 1.1">7 DIAS</span>
+<!-- GARANTIA -->
+<section style="background: #FFFFFF">
+<div style="max-width: 680px; margin: 0 auto; padding: 56px 20px; display: flex; flex-direction: column; gap: 16px; align-items: center; text-align: center">
+<div style="width: 112px; height: 112px; border-radius: 50%; background: #062B4A; color: #FFFFFF; border: 6px solid #FFC531; display: flex; flex-direction: column; align-items: center; justify-content: center; box-sizing: border-box">
+<span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 34px; line-height: 1">7</span>
+<span style="font-size: 12px; font-weight: 700; letter-spacing: .12em">DIAS</span>
 </div>
-<div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
-<h3 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 26px; line-height: 1.1; color: #062B4A">Risco zero</h3>
-<p style="margin: 0; color: #3B4C5C">Se não for para você, peça o reembolso dentro de 7 dias. Simples assim.</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(26px, 4vw, 34px); line-height: 1.1; color: #062B4A">Garantia de 7 dias</h2>
+<p style="margin: 0; color: #3B4C5C; max-width: 480px">Comece o desafio. Se nos primeiros 7 dias sentir que não é para você, é só pedir o reembolso. Sem perguntas, sem burocracia.</p>
 </div>
-</div>
+</section>
 
-<div style="display: flex; flex-direction: column; gap: 20px">
-<h2 style="margin: 0; text-align: center; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(30px, 4.4vw, 42px); line-height: 1.08; letter-spacing: -.01em; color: #062B4A">Dúvidas rápidas</h2>
+<!-- COMO FUNCIONA O ACESSO -->
+<section style="background: #F3F6FA">
+<div style="max-width: 680px; margin: 0 auto; padding: 64px 20px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 8px; align-items: center; text-align: center">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(28px, 4.4vw, 40px); line-height: 1.08; letter-spacing: -.01em; color: #062B4A">Como funciona o acesso</h2>
+<p style="margin: 0; color: #3B4C5C">Quatro passos simples.</p>
+</div>
 <div style="display: flex; flex-direction: column; gap: 12px">
-<details style="background: #FFFFFF; border: 1px solid #D3DDE6; border-radius: 18px; padding: 0 24px"><summary style="min-height: 64px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 18px; color: #062B4A">Vou ficar fluente em 7 dias?<span class="plus" style="font-size: 26px; font-weight: 400; color: #08406D">+</span></summary><p style="margin: 0 0 22px; color: #3B4C5C">Não — e desconfie de quem promete isso. Em 7 dias você aprende as estruturas para afirmar, negar e perguntar no presente, no passado e no futuro, e pratica falando. É a base para as conversas acontecerem.</p></details>
-<details style="background: #FFFFFF; border: 1px solid #D3DDE6; border-radius: 18px; padding: 0 24px"><summary style="min-height: 64px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 18px; color: #062B4A">Nunca estudei inglês. Serve para mim?<span class="plus" style="font-size: 26px; font-weight: 400; color: #08406D">+</span></summary><p style="margin: 0 0 22px; color: #3B4C5C">Serve. O desafio é para quem nunca estudou e quer começar do jeito certo, e também para quem já estudou e não destravou.</p></details>
-<details style="background: #FFFFFF; border: 1px solid #D3DDE6; border-radius: 18px; padding: 0 24px"><summary style="min-height: 64px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 18px; color: #062B4A">Funciona no celular?<span class="plus" style="font-size: 26px; font-weight: 400; color: #08406D">+</span></summary><p style="margin: 0 0 22px; color: #3B4C5C">Sim. Vídeo aula, exercícios, repetição e prática: tudo pelo celular.</p></details>
-<details style="background: #FFFFFF; border: 1px solid #D3DDE6; border-radius: 18px; padding: 0 24px"><summary style="min-height: 64px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 18px; color: #062B4A">E se eu perder um dia?<span class="plus" style="font-size: 26px; font-weight: 400; color: #08406D">+</span></summary><p style="margin: 0 0 22px; color: #3B4C5C">[Resposta: ex. as aulas ficam liberadas e você retoma de onde parou.]</p></details>
-<details style="background: #FFFFFF; border: 1px solid #D3DDE6; border-radius: 18px; padding: 0 24px"><summary style="min-height: 64px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 18px; color: #062B4A">Como recebo o acesso?<span class="plus" style="font-size: 26px; font-weight: 400; color: #08406D">+</span></summary><p style="margin: 0 0 22px; color: #3B4C5C">Logo depois da compra, você recebe o acesso no seu e-mail e já pode começar o Dia 1.</p></details>
+<div style="background: #FFFFFF; border-radius: 18px; padding: 18px 20px; display: flex; gap: 16px; align-items: center"><span style="flex: 0 0 44px; height: 44px; border-radius: 50%; background: #062B4A; color: #FFC531; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 20px; display: flex; align-items: center; justify-content: center">1</span><div style="display: flex; flex-direction: column"><span style="font-weight: 700; color: #062B4A; font-size: 18px">Faça a sua compra</span><span style="color: #3B4C5C; font-size: 16px">Pagamento único de R$49,90, em ambiente seguro.</span></div></div>
+<div style="background: #FFFFFF; border-radius: 18px; padding: 18px 20px; display: flex; gap: 16px; align-items: center"><span style="flex: 0 0 44px; height: 44px; border-radius: 50%; background: #062B4A; color: #FFC531; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 20px; display: flex; align-items: center; justify-content: center">2</span><div style="display: flex; flex-direction: column"><span style="font-weight: 700; color: #062B4A; font-size: 18px">Receba o acesso no e-mail</span><span style="color: #3B4C5C; font-size: 16px">Chega na hora. Você já pode começar o Dia 1.</span></div></div>
+<div style="background: #FFFFFF; border-radius: 18px; padding: 18px 20px; display: flex; gap: 16px; align-items: center"><span style="flex: 0 0 44px; height: 44px; border-radius: 50%; background: #062B4A; color: #FFC531; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 20px; display: flex; align-items: center; justify-content: center">3</span><div style="display: flex; flex-direction: column"><span style="font-weight: 700; color: #062B4A; font-size: 18px">1 hora por dia, 7 dias seguidos</span><span style="color: #3B4C5C; font-size: 16px">Vídeo aula e exercícios de repetição e prática pelo celular.</span></div></div>
+<div style="background: #FFFFFF; border-radius: 18px; padding: 18px 20px; display: flex; gap: 16px; align-items: center"><span style="flex: 0 0 44px; height: 44px; border-radius: 50%; background: #FFC531; color: #062B4A; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 20px; display: flex; align-items: center; justify-content: center">4</span><div style="display: flex; flex-direction: column"><span style="font-weight: 700; color: #062B4A; font-size: 18px">Conclua e ganhe a sua aula</span><span style="color: #3B4C5C; font-size: 16px">Aula individual com o Teacher Yan e o seu planejamento anual.</span></div></div>
 </div>
+<a class="cta" href="https://pay.kiwify.com.br/AfBRZsL" style="display: flex; align-items: center; justify-content: center; min-height: 58px; width: 100%; max-width: 420px; margin: 0 auto; box-sizing: border-box; padding: 0 24px; border-radius: 16px; background: #FFC531; color: #0C1720; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 18px; letter-spacing: .02em; text-decoration: none; text-transform: uppercase; box-shadow: 0 6px 0 #D9A21A; text-align: center">Quero começar agora</a>
+</div>
+</section>
+
+<!-- QUEM CRIOU -->
+<section style="background: #FFFFFF">
+<div style="max-width: 680px; margin: 0 auto; padding: 64px 20px; display: flex; flex-direction: column; gap: 22px; align-items: center">
+<h2 style="margin: 0; text-align: center; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(28px, 4.4vw, 40px); line-height: 1.08; letter-spacing: -.01em; color: #062B4A">Quem criou o desafio?</h2>
+<img src="img/teacher-yan.jpg" alt="Teacher Yan Simas" style="width: 100%; max-width: 320px; aspect-ratio: 4 / 5; object-fit: cover; object-position: center top; border-radius: 24px; display: block; box-shadow: 0 20px 50px rgba(6,43,74,.22)">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 2px; text-align: center">
+<span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 24px; color: #062B4A">Teacher Yan Simas</span>
+<span style="font-size: 15px; color: #5B6D7D">Fundador da LetzTalk Academy · <strong style="color: #062B4A">+1.500 alunos</strong></span>
+</div>
+<p style="margin: 0; color: #3B4C5C; text-align: center; max-width: 560px">Percebi que muita gente passava anos estudando e não conseguia sentir segurança no próprio inglês. Por isso me dediquei a criar algo que realmente traga retorno, começando pelo <strong style="color: #062B4A">Desafio Inglês em 7 Dias</strong>: em uma semana, ele destrava o que ninguém conseguiu destravar em você até hoje.</p>
+<p style="margin: 0; color: #3B4C5C; text-align: center; max-width: 560px; background: #FFF6D9; border-radius: 14px; padding: 14px 18px">Mas aviso: o desafio só funciona para quem está disposto a dedicar <strong style="color: #062B4A">1 hora do dia ao inglês, durante 7 dias</strong>.</p>
+</div>
+</section>
+
+<!-- FAQ -->
+<section style="background: #F3F6FA">
+<div style="max-width: 680px; margin: 0 auto; padding: 64px 20px; display: flex; flex-direction: column; gap: 22px">
+<h2 style="margin: 0; text-align: center; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(28px, 4.4vw, 40px); line-height: 1.08; letter-spacing: -.01em; color: #062B4A">Perguntas frequentes</h2>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<details style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 16px; padding: 0 20px"><summary style="min-height: 60px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 17px; color: #062B4A">Vou ficar fluente em 7 dias?<span class="plus" style="font-size: 26px; font-weight: 400; color: #08406D">+</span></summary><p style="margin: 0 0 20px; color: #3B4C5C">Não, e desconfie de quem promete isso. Em 7 dias você aprende as estruturas para afirmar, negar e perguntar no presente, no passado e no futuro, e pratica falando. É a base para as conversas acontecerem.</p></details>
+<details style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 16px; padding: 0 20px"><summary style="min-height: 60px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 17px; color: #062B4A">Nunca estudei inglês. Serve para mim?<span class="plus" style="font-size: 26px; font-weight: 400; color: #08406D">+</span></summary><p style="margin: 0 0 20px; color: #3B4C5C">Serve. O desafio é para quem nunca estudou e quer começar do jeito certo, e também para quem já estudou e não destravou.</p></details>
+<details style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 16px; padding: 0 20px"><summary style="min-height: 60px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 17px; color: #062B4A">Funciona no celular?<span class="plus" style="font-size: 26px; font-weight: 400; color: #08406D">+</span></summary><p style="margin: 0 0 20px; color: #3B4C5C">Sim. Vídeo aula, exercícios, repetição e prática: tudo pelo celular.</p></details>
+<details style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 16px; padding: 0 20px"><summary style="min-height: 60px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 17px; color: #062B4A">E se eu perder um dia?<span class="plus" style="font-size: 26px; font-weight: 400; color: #08406D">+</span></summary><p style="margin: 0 0 20px; color: #3B4C5C">[Resposta: ex. as aulas ficam liberadas e você retoma de onde parou.]</p></details>
+<details style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 16px; padding: 0 20px"><summary style="min-height: 60px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 17px; color: #062B4A">Como recebo o acesso?<span class="plus" style="font-size: 26px; font-weight: 400; color: #08406D">+</span></summary><p style="margin: 0 0 20px; color: #3B4C5C">Logo depois da compra, você recebe o acesso no seu e-mail e já pode começar o Dia 1.</p></details>
+<details style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 16px; padding: 0 20px"><summary style="min-height: 60px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 17px; color: #062B4A">Como funciona a garantia?<span class="plus" style="font-size: 26px; font-weight: 400; color: #08406D">+</span></summary><p style="margin: 0 0 20px; color: #3B4C5C">Se nos primeiros 7 dias sentir que não é para você, é só pedir o reembolso e você recebe o valor de volta.</p></details>
+<details style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 16px; padding: 0 20px"><summary style="min-height: 60px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 17px; color: #062B4A">Quais as formas de pagamento?<span class="plus" style="font-size: 26px; font-weight: 400; color: #08406D">+</span></summary><p style="margin: 0 0 20px; color: #3B4C5C">[Resposta: ex. Pix, cartão de crédito e boleto, conforme o checkout da Kiwify.]</p></details>
 </div>
 </div>
 </section>
 
-<!-- CTA FINAL -->
-<section style="background: #062B4A; color: #FFFFFF">
-<div style="max-width: 860px; margin: 0 auto; padding: 88px 20px 64px; display: flex; flex-direction: column; gap: 26px; align-items: center; text-align: center">
-<h2 style="margin: 0; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: clamp(32px, 5vw, 54px); line-height: 1.02; letter-spacing: -.01em; text-transform: uppercase">Pare de estudar inglês. <span style="color: #FFC531">Comece a falar.</span></h2>
-<p style="margin: 0; color: #D5E3EE; font-size: 19px">7 dias · 1h por dia · presente, passado e futuro</p>
-<a class="cta" href="https://pay.kiwify.com.br/XLh2tc1" style="display: inline-flex; align-items: center; justify-content: center; min-height: 60px; padding: 0 36px; border-radius: 999px; background: #FFC531; color: #0C1720; font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 19px; letter-spacing: .02em; text-decoration: none; text-transform: uppercase; box-shadow: 0 6px 0 rgba(0,0,0,.28)">Começar o desafio · R$49,90</a>
-<div style="margin-top: 32px; border-top: 1px solid rgba(255,255,255,.14); padding-top: 24px; width: 100%; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: center; font-size: 14px; color: #A9C1D3">
-<span>LetzTalk Academy · Teacher Yan Simas</span><span>© 2026</span>
+<!-- RODAPÉ -->
+<footer style="background: #062B4A; color: #A9C1D3">
+<div style="max-width: 680px; margin: 0 auto; padding: 40px 20px; display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center; font-size: 14px">
+<span style="font-family: 'Bricolage Grotesque', Karla, sans-serif; font-weight: 800; font-size: 18px; color: #FFFFFF">LetzTalk Academy</span>
+<span>Desafio Inglês em 7 Dias · Teacher Yan Simas</span>
+<span style="display: inline-flex; gap: 6px; align-items: center"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#A9C1D3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Ambiente 100% seguro</span>
+<span>© 2026 · Todos os direitos reservados</span>
 </div>
-</div>
-</section>
+</footer>
 
 </div>
 </body>
